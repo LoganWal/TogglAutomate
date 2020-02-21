@@ -1,0 +1,2 @@
+# TogglAutomate
+Automate toggl entries
