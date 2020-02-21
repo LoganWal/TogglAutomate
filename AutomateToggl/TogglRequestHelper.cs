@@ -11,13 +11,22 @@
             const string cookie = ""; // add your cookie
             const string pid = ""; // add your pid
             const string wid = ""; // add your wid
-            const string description = ""; // add description
 
             if (string.IsNullOrEmpty(basicAuth) || string.IsNullOrEmpty(cookie) || string.IsNullOrEmpty(pid) || string.IsNullOrEmpty(wid))
             {
                 Console.WriteLine("Missing credentials");
             }
 
+            // Add more descriptions here
+            var taskList = new string[]
+            {
+                "Doing Toggl hours",
+                "Helping Finance with Duo issues",
+                "Aggregate and breakdown reports",
+            };
+
+            var machineLearningRobot = new Random();
+            var description = taskList[machineLearningRobot.Next(taskList.Length)];
 
             var client = new RestClient("https://toggl.com/api/v9/time_entries") { Timeout = -1 };
 
