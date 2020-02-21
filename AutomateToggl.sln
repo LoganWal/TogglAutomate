@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomateToggl", "AutomateToggl\AutomateToggl.csproj", "{8AAAE4A2-35BB-4E4D-BC90-D05CDD298920}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomateTogglMonthlyCatchUp", "AutomateTogglMonthlyCatchUp\AutomateTogglMonthlyCatchUp.csproj", "{5F7005E6-A01E-4C12-8957-59059675444B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AAAE4A2-35BB-4E4D-BC90-D05CDD298920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AAAE4A2-35BB-4E4D-BC90-D05CDD298920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AAAE4A2-35BB-4E4D-BC90-D05CDD298920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AAAE4A2-35BB-4E4D-BC90-D05CDD298920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7005E6-A01E-4C12-8957-59059675444B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7005E6-A01E-4C12-8957-59059675444B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7005E6-A01E-4C12-8957-59059675444B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7005E6-A01E-4C12-8957-59059675444B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB1F5716-AEE8-46E0-8B09-BA3A830AE24E}
+	EndGlobalSection
+EndGlobal
