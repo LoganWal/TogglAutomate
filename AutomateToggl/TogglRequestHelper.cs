@@ -1,16 +1,17 @@
 ﻿namespace AutomateToggl
 {
     using System;
+    using System.Configuration;
     using RestSharp;
 
     public class TogglRequestHelper
     {
         public static void SendTogglRequest(DateTime date)
         {
-            const string basicAuth = ""; // add your basic auth
-            const string cookie = ""; // add your cookie
-            const string pid = ""; // add your pid
-            const string wid = ""; // add your wid
+            var basicAuth = ConfigurationManager.AppSettings["basicAuth"];  // add your basic auth
+            var cookie = ConfigurationManager.AppSettings["cookie"];;       // add your cookie
+            var pid = ConfigurationManager.AppSettings["pid"];;             // add your pid
+            var wid = ConfigurationManager.AppSettings["wid"];              // add your wid
 
             if (string.IsNullOrEmpty(basicAuth) || string.IsNullOrEmpty(cookie) || string.IsNullOrEmpty(pid) || string.IsNullOrEmpty(wid))
             {
@@ -18,15 +19,15 @@
             }
 
             // Add more descriptions here
-            var taskList = new string[]
+            var taskList = new []
             {
                 "Doing Toggl hours",
                 "Helping Finance with Duo issues",
                 "Aggregate and breakdown reports",
             };
 
-            var machineLearningRobot = new Random();
-            var description = taskList[machineLearningRobot.Next(taskList.Length)];
+            var random = new Random();
+            var description = taskList[random.Next(taskList.Length)];
 
             var client = new RestClient("https://toggl.com/api/v9/time_entries") { Timeout = -1 };
 
