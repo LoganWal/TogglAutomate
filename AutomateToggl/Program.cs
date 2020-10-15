@@ -1,6 +1,7 @@
 ﻿namespace AutomateToggl
 {
     using System;
+    using AutomateTogglShared.Helpers;
 
     public class Program
     {

@@ -1,4 +1,4 @@
-﻿namespace AutomateToggl
+﻿namespace AutomateTogglShared.Helpers
 {
     using System;
     using System.Configuration;
