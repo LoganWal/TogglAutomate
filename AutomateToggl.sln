@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomateToggl", "AutomateTo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomateTogglMonthlyCatchUp", "AutomateTogglMonthlyCatchUp\AutomateTogglMonthlyCatchUp.csproj", "{5F7005E6-A01E-4C12-8957-59059675444B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomateTogglShared", "AutomateTogglShared\AutomateTogglShared.csproj", "{129129D5-1976-47B7-8E7F-4CE1FF5BC1CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5F7005E6-A01E-4C12-8957-59059675444B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F7005E6-A01E-4C12-8957-59059675444B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F7005E6-A01E-4C12-8957-59059675444B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129129D5-1976-47B7-8E7F-4CE1FF5BC1CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129129D5-1976-47B7-8E7F-4CE1FF5BC1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129129D5-1976-47B7-8E7F-4CE1FF5BC1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129129D5-1976-47B7-8E7F-4CE1FF5BC1CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
