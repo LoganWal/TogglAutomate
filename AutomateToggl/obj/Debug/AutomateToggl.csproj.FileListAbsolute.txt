@@ -1,9 +1,0 @@
-C:\Users\logan.walmsley\source\repos\AutomateToggl\AutomateToggl\bin\Debug\AutomateToggl.exe.config
-C:\Users\logan.walmsley\source\repos\AutomateToggl\AutomateToggl\bin\Debug\AutomateToggl.exe
-C:\Users\logan.walmsley\source\repos\AutomateToggl\AutomateToggl\bin\Debug\AutomateToggl.pdb
-C:\Users\logan.walmsley\source\repos\AutomateToggl\AutomateToggl\obj\Debug\AutomateToggl.csprojAssemblyReference.cache
-C:\Users\logan.walmsley\source\repos\AutomateToggl\AutomateToggl\obj\Debug\AutomateToggl.exe
-C:\Users\logan.walmsley\source\repos\AutomateToggl\AutomateToggl\obj\Debug\AutomateToggl.pdb
-C:\Users\logan.walmsley\source\repos\AutomateToggl\AutomateToggl\bin\Debug\RestSharp.dll
-C:\Users\logan.walmsley\source\repos\AutomateToggl\AutomateToggl\bin\Debug\RestSharp.xml
-C:\Users\logan.walmsley\source\repos\AutomateToggl\AutomateToggl\obj\Debug\AutomateToggl.csproj.CopyComplete
