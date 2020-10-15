@@ -1,7 +1,7 @@
 ﻿namespace AutomateTogglMonthlyCatchUp
 {
     using System;
-    using AutomateToggl;
+    using AutomateTogglShared.Helpers;
 
     public class Program
     {
